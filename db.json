@@ -1,0 +1,191 @@
+{
+    "ports": [
+        {
+            "id": 1,
+            "created_at": "2019-11-28T09:55:59.523Z",
+            "name": "Port 1",
+            "city": "Palma",
+            "postal_code": "07001",
+            "country": "Spain",
+            "occupation": {}
+        }
+    ],
+    "berths": [
+        {
+            "internal_port_id": "R15001",
+            "pier_id": "1",
+            "length_cms": 1400,
+            "beam_cms": 400,
+            "draft_cms": 200,
+            "type": "MEMBER",
+            "status": "FREE",
+            "sensor_id": "2",
+            "port_id": "1",
+            "id": "TJIYXli",
+            "last_movement": {
+                "date": "2019-11-26T09:55:59.523Z",
+                "type": "DEPARTURE"
+            }
+        },
+        {
+            "id": "AsIRXv4",
+            "internal_port_id": "R15002",
+            "port_id": "1",
+            "length_cms": 2001,
+            "beam_cms": 111,
+            "draft_cms": 111,
+            "type": "MEMBER",
+            "status": "OCCUPIED",
+            "pier_id": "1",
+            "last_movement": {
+                "date": "2019-11-26T09:55:59.523Z",
+                "type": "DEPARTURE"
+            },
+            "sensor_id": "1"
+        },
+        {
+            "internal_port_id": "R15003",
+            "pier_id": "1",
+            "length_cms": 2400,
+            "beam_cms": 600,
+            "draft_cms": 600,
+            "type": "TRANSIENT",
+            "status": "FREE",
+            "sensor_id": "2",
+            "port_id": "1",
+            "id": "_Bb4OiI"
+        },
+        {
+            "internal_port_id": "R13001",
+            "pier_id": "2",
+            "length_cms": 2400,
+            "beam_cms": 450,
+            "draft_cms": 700,
+            "type": "TEMPORARY_TRANSIENT",
+            "status": "FREE",
+            "sensor_id": "1",
+            "port_id": "1",
+            "id": "gUznB8q"
+        },
+        {
+            "internal_port_id": "R13002",
+            "pier_id": "2",
+            "length_cms": 2400,
+            "beam_cms": 450,
+            "draft_cms": 700,
+            "type": "TEMPORARY_TRANSIENT",
+            "status": "OCCUPIED",
+            "sensor_id": "1",
+            "port_id": "1",
+            "id": "gUfnB3q",
+            "last_movement": {
+                "date": "2019-11-26T09:55:59.523Z",
+                "type": "DEPARTURE"
+            }
+        },
+        {
+            "internal_port_id": "R13003",
+            "pier_id": "2",
+            "length_cms": 850,
+            "beam_cms": 300,
+            "draft_cms": 700,
+            "type": "TRANSIENT",
+            "status": "OCCUPIED",
+            "sensor_id": "1",
+            "port_id": "1",
+            "id": "gUfhBE5q",
+            "last_movement": {
+                "date": "2019-11-26T09:55:59.523Z",
+                "type": "DEPARTURE"
+            }
+        },
+        {
+            "internal_port_id": "R13004",
+            "pier_id": "2",
+            "length_cms": 850,
+            "beam_cms": 300,
+            "draft_cms": 700,
+            "type": "TRANSIENT",
+            "status": "FREE",
+            "sensor_id": "1",
+            "port_id": "1",
+            "id": "gMfhWE2p",
+            "last_movement": {
+                "date": "2019-11-26T09:55:59.523Z",
+                "type": "DEPARTURE"
+            }
+        }
+    ],
+    "piers": [
+        {
+            "id": "1",
+            "created_at": "2019-11-28T09:55:59.523Z",
+            "name": "R15"
+        },
+        {
+            "id": "2",
+            "created_at": "2019-11-28T09:55:59.523Z",
+            "name": "R13"
+        }
+    ],
+    "auth": [
+        {
+            "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjRhOWEzMGI5ZThkYTMxNjY2YTY3NTRkZWZlZDQxNzQzZjJlN2FlZWEiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiQWxlaXggU3VhdSIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS0vQUF1RTdtQTFGNmREZElxLXI4bDhwQnNMTm4xdXdPWjVTR2hfd09UVy05dE8iLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vc2Vhd2V4IiwiYXVkIjoic2Vhd2V4IiwiYXV0aF90aW1lIjoxNTc1MDM2NTIzLCJ1c2VyX2lkIjoiZ1FUR1djY3JsRlpyU0dmSVphWXpWSkhZUElhMiIsInN1YiI6ImdRVEdXY2NybEZaclNHZklaYVl6VkpIWVBJYTIiLCJpYXQiOjE1NzUwNDU4MjYsImV4cCI6MTU3NTA0OTQyNiwiZW1haWwiOiJpbmZvQG1hY3JvZm9ub2VzdHVkaW8uZXMiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJnb29nbGUuY29tIjpbIjEwODYyODI0Nzg3ODc1MjkyNjUyMiJdLCJlbWFpbCI6WyJpbmZvQG1hY3JvZm9ub2VzdHVkaW8uZXMiXX0sInNpZ25faW5fcHJvdmlkZXIiOiJnb29nbGUuY29tIn19.DkvDoR2pmd_eNZJc-JcVyLALEQsCZdiSWEJ5rYkzY0Cw-BvhyiHq2z7Udd6yYquFMYGebFd1zY4eWGJO2pR3ARuq8zQUKiQRlXHoqNAjkyfT-PPhHBYtJPb-5ya53_W6r-LZTJyxsGCJM_05gj_g1Ih8CZZxGkJWbODv038uwrduF5W46DFwr9zpgEJha5I2Ok31CUy9HHyR_pkPq7Ecg1bnrclODaSKZtLB6h5l2GrTi9zXANU-LdXsdcH6bX-RMr2-kXLC1KbYhYTjTQtSntcr876GtIJJLJQEVu305BxziHqsm_bY-hG3O-Q4ShPUADG9QcVxQGfw6YPV92ccuQ",
+            "id": 1
+        },
+        {
+            "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjRhOWEzMGI5ZThkYTMxNjY2YTY3NTRkZWZlZDQxNzQzZjJlN2FlZWEiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiQWxlaXggU3VhdSIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS0vQUF1RTdtQTFGNmREZElxLXI4bDhwQnNMTm4xdXdPWjVTR2hfd09UVy05dE8iLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vc2Vhd2V4IiwiYXVkIjoic2Vhd2V4IiwiYXV0aF90aW1lIjoxNTc1MDM2NTIzLCJ1c2VyX2lkIjoiZ1FUR1djY3JsRlpyU0dmSVphWXpWSkhZUElhMiIsInN1YiI6ImdRVEdXY2NybEZaclNHZklaYVl6VkpIWVBJYTIiLCJpYXQiOjE1NzUwNDU4MjYsImV4cCI6MTU3NTA0OTQyNiwiZW1haWwiOiJpbmZvQG1hY3JvZm9ub2VzdHVkaW8uZXMiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJnb29nbGUuY29tIjpbIjEwODYyODI0Nzg3ODc1MjkyNjUyMiJdLCJlbWFpbCI6WyJpbmZvQG1hY3JvZm9ub2VzdHVkaW8uZXMiXX0sInNpZ25faW5fcHJvdmlkZXIiOiJnb29nbGUuY29tIn19.DkvDoR2pmd_eNZJc-JcVyLALEQsCZdiSWEJ5rYkzY0Cw-BvhyiHq2z7Udd6yYquFMYGebFd1zY4eWGJO2pR3ARuq8zQUKiQRlXHoqNAjkyfT-PPhHBYtJPb-5ya53_W6r-LZTJyxsGCJM_05gj_g1Ih8CZZxGkJWbODv038uwrduF5W46DFwr9zpgEJha5I2Ok31CUy9HHyR_pkPq7Ecg1bnrclODaSKZtLB6h5l2GrTi9zXANU-LdXsdcH6bX-RMr2-kXLC1KbYhYTjTQtSntcr876GtIJJLJQEVu305BxziHqsm_bY-hG3O-Q4ShPUADG9QcVxQGfw6YPV92ccuQ",
+            "id": 2
+        },
+        {
+            "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjRhOWEzMGI5ZThkYTMxNjY2YTY3NTRkZWZlZDQxNzQzZjJlN2FlZWEiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiQWxlaXggU3VhdSIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS0vQUF1RTdtQTFGNmREZElxLXI4bDhwQnNMTm4xdXdPWjVTR2hfd09UVy05dE8iLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vc2Vhd2V4IiwiYXVkIjoic2Vhd2V4IiwiYXV0aF90aW1lIjoxNTc1MDM2NTIzLCJ1c2VyX2lkIjoiZ1FUR1djY3JsRlpyU0dmSVphWXpWSkhZUElhMiIsInN1YiI6ImdRVEdXY2NybEZaclNHZklaYVl6VkpIWVBJYTIiLCJpYXQiOjE1NzUwNDU4MjYsImV4cCI6MTU3NTA0OTQyNiwiZW1haWwiOiJpbmZvQG1hY3JvZm9ub2VzdHVkaW8uZXMiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJnb29nbGUuY29tIjpbIjEwODYyODI0Nzg3ODc1MjkyNjUyMiJdLCJlbWFpbCI6WyJpbmZvQG1hY3JvZm9ub2VzdHVkaW8uZXMiXX0sInNpZ25faW5fcHJvdmlkZXIiOiJnb29nbGUuY29tIn19.DkvDoR2pmd_eNZJc-JcVyLALEQsCZdiSWEJ5rYkzY0Cw-BvhyiHq2z7Udd6yYquFMYGebFd1zY4eWGJO2pR3ARuq8zQUKiQRlXHoqNAjkyfT-PPhHBYtJPb-5ya53_W6r-LZTJyxsGCJM_05gj_g1Ih8CZZxGkJWbODv038uwrduF5W46DFwr9zpgEJha5I2Ok31CUy9HHyR_pkPq7Ecg1bnrclODaSKZtLB6h5l2GrTi9zXANU-LdXsdcH6bX-RMr2-kXLC1KbYhYTjTQtSntcr876GtIJJLJQEVu305BxziHqsm_bY-hG3O-Q4ShPUADG9QcVxQGfw6YPV92ccuQ",
+            "id": 3
+        }
+    ],
+    "sensors": [
+        {
+            "id": "1",
+            "berth_id": "1",
+            "pier_id": "1",
+            "battery_level": 30,
+            "last_maintenance": "2019-12-09T19:33:59.413Z",
+            "max_distance_threshold_cms": 550,
+            "hardware_serial": "ABCDE"
+        },
+        {
+            "id": "2",
+            "berth_id": "2",
+            "pier_id": "2",
+            "battery_level": 30,
+            "last_maintenance": "2019-12-09T19:33:59.413Z",
+            "max_distance_threshold_cms": 400,
+            "hardware_serial": "ABC123"
+        }
+    ],
+    "sensorsInfo": [
+        {
+            "status": "OK",
+            "id": "1",
+            "battery_level": 30,
+            "last_maintenance": "2019-10-09T15:30:59.413Z",
+            "signal_level": 30,
+            "max_distance_threshold_cms": 500
+        },
+        {
+            "status": "OK",
+            "id": "2",
+            "battery_level": 70,
+            "last_maintenance": "2019-12-09T19:33:59.413Z",
+            "signal_level": -90,
+            "max_distance_threshold_cms": 345
+        },
+        {
+            "status": "OK",
+            "id": "3",
+            "battery_level": 79,
+            "last_maintenance": "2018-12-09T19:33:59.413Z",
+            "signal_level": -124,
+            "max_distance_threshold_cms": 340
+        }
+    ]
+}
